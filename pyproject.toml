@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "squarem-cd"
+version = "0.1.0"
+description = "SQUAREM acceleration of coordinate descent for sparse regression (lasso, sparse logistic regression), as solvers for skglm"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Ravi Varadhan", email = "ravi.varadhan@jhu.edu"}]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "numba>=0.56",
+    "scikit-learn>=1.1",
+    "skglm>=0.5,<0.6",
+]
+keywords = ["coordinate descent", "SQUAREM", "extrapolation", "lasso", "sparse logistic regression", "skglm"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/rvaradhan/squarem-cd"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
