@@ -1,5 +1,7 @@
 # squarem-cd
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24328990.svg)](https://doi.org/10.5281/zenodo.24328990)
+
 SQUAREM acceleration of coordinate descent for sparse regression, as solvers for
 [skglm](https://github.com/scikit-learn-contrib/skglm).
 
@@ -74,6 +76,12 @@ res.x, res.n_fixptfn
 ```
 
 ## Citing
+
+To cite the software, use its Zenodo record: Varadhan, R. (2026). squarem-cd: SQUAREM acceleration of coordinate descent
+for sparse regression. https://doi.org/10.5281/zenodo.24328990 (all versions; each release also has its own DOI,
+for example https://doi.org/10.5281/zenodo.24328991 for version 0.1.0).
+
+To cite the method:
 
 Varadhan, R. (2026). Accelerating coordinate descent for sparse regression with squared extrapolation (SQUAREM).
 Manuscript.

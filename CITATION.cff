@@ -4,6 +4,7 @@ title: "squarem-cd: SQUAREM acceleration of coordinate descent for sparse regres
 version: 0.1.0
 date-released: 2026-11-17
 license: BSD-3-Clause
+doi: 10.5281/zenodo.24328990
 repository-code: "https://github.com/rvaradhan/squarem-cd"
 type: software
 authors:
